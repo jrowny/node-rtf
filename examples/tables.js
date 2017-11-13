@@ -21,6 +21,8 @@ table2.setData([
 //adding a row to an existing data set
 table2.addRow(["Banana", "$0.12", "1"]);
 
+myDoc.addTable(table2);
+
 myDoc.createDocument(
     function(err, output){
         console.log(output);
